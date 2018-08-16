@@ -1,4 +1,4 @@
-cd C:\Python33\Scripts
-‚Å“ü‚Á‚Ä‚©‚ç
+ï»¿cd C:\Python33\Scripts
+ã§å…¥ã£ã¦ã‹ã‚‰
 pip install colorama
-‚·‚é
+ã™ã‚‹
