@@ -1,0 +1,4 @@
+cd C:\Python33\Scripts
+‚Å“ü‚Á‚Ä‚©‚ç
+pip install colorama
+‚·‚é
