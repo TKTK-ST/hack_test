@@ -21,7 +21,7 @@ if __name__ == '__main__':
     password = getpass.getpass('Please set a password of ' + str(maxlength) + 'characters or less.\n' + str(maxlength) + '文字以下のパスワードを設定してください\n\nPassword:')
     print()
     if (len(password) > maxlength) or (len(password) < mixlength):
-    print(Fore.RED + 'Password must be ' + str(mixlength) + ' to ' + str(maxlength) + ' characters.\nパスワードは' + str(mixlength) + '文字以上、' + str(maxlength) + '文字以下' + 'で設定して下さい')
+        print(Fore.RED + 'Password must be ' + str(mixlength) + ' to ' + str(maxlength) + ' characters.\nパスワードは' + str(mixlength) + '文字以上、' + str(maxlength) + '文字以下' + 'で設定して下さい')
     else:
         for a in password:
             if a in use:
